@@ -1,0 +1,79 @@
+
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  .contenedor 
+  {
+      
+      font-family: 'Lobster', cursive;
+      place-items: center;
+      display: grid;
+      min-height: 100vh;
+      min-width: 100vw;
+      background-size: cover;
+      background-image: linear-gradient(to right top, #0e2446, #14396c, #185094, #1969bf, #1282eb);  }
+  .span{
+    border:solid 4px rgb(0, 0, 0);
+    padding: 1px;
+    font-size: 2rem;
+    
+  }
+  .span:hover{
+    border: solid rgb(0, 0, 0);
+    font-size: 2.5rem;
+  }
+  #astronauta{
+   bottom: 2vh;
+   right: 70vw;
+   position: absolute;
+  }
+  #nave{
+  position: absolute;
+  top: 10vh;
+  left: 70vw;
+
+  }
+  #hello{
+    text-shadow: 3px 4px 0px rgb(126, 126, 126);
+  }
+  
+  a{
+    text-decoration: none;
+    color: #ffffff;
+
+  }
+  .h1index{
+      font-size: 4rem;
+  }
+  #nombre{
+      color: rgb(255, 255, 255);
+      text-shadow: 3px  4px 0px rgb(126, 126, 126);
+  }
+  
+  .wd {
+  
+      font-family: "Courier New";  
+  font-size: 3rem;
+  border-right: .10em solid #000000;
+  animation: blink 1s steps(1) infinite;
+  font-weight: 700;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing  1s steps(13) 1s 1 normal both, blink 1s steps(1) infinite;
+
+  }
+  
+  @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 60%;
+      }
+    }
